@@ -1,2 +1,61 @@
-/*CSS rules for the nav bar*/
+body{
+    margin: 0;
+}
 
+.top-page {
+    display: flow-root;
+    background: #0a4e75;
+    padding: 20px;
+    height: 300px;
+}
+
+.menu {
+    padding: 0;
+}
+
+.menu, .menu-main {
+    display: inline;
+}
+
+.menu .active {
+    background-color: #083b58;
+    padding: 10px;
+    border: 1px solid #083b58;
+    border-radius: 5px;
+}
+
+.menu-main {
+    color: #ffffff;
+    padding: 10px;
+}
+
+.profile-small {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.left-nav {
+    width: 50%;
+}
+
+.left-nav {
+    float: left;
+}
+
+.right-nav {
+    float: right;
+}
+
+.pets {
+    color: #17bdca;
+    transform: rotate(90deg);
+    margin-right: 20px;
+}
+
+.search {
+    position: relative;
+    display: block;
+    width: 84px;
+    height: 96px;
+    cursor: pointer;
+}
