@@ -20,18 +20,111 @@
 				</div>
 				
 				<div class="right-nav">
-					<button type="submit" class="search">
-			          <div id="s-circle"></div>
-			          <span></span>
-			        </button>
-					<input type="text" name="search" placeholder="Search">
+					<form class="sb">
+						<div class="sg">
+							<span>
+								<button type="submit" class="search">
+					          		<!-- <div id="s-circle"></div> -->
+					          		<span class="material-icons">search</span>
+					      		</button>
+					      	</span>					        		
+					        <input type="text" name="search" placeholder="Search">				
+						</div>						
+					</form>					
 					<span class="material-icons">notifications</span>
 					<img class="profile-small" src="profile.jpg">
 				</div>
 			</nav>			
 		</div>
 	</div>	
-	
+	<div class="main">
+		<h2>Settings</h2>
+		<div class="profile">
+			<div class="sidebar">
+				<nav>
+					<ul>
+						<li>Profile</li>
+						<li>Account</li>
+						<li>Password</li>
+						<li>Notifications</li>
+						<li>Billing</li>
+						<li>Integrations</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="content">
+				<h5>Profile</h5>
+				<p>This information will be shared publically, so be careful what you share</p>
+				<form>
+					<label>Username</label>
+					<input type="text" name="username">
+					<label>Photo</label>
+					<img class="profile-large" src="profile.jpg">
+					<br>
+
+					<label>About</label>
+					<input type="text" name="aboutme">
+					<small>Brief description of your profile. URLs are hyperlinked.</small>
+
+					<label>Firstname</label>
+					<input type="text" name="fname">
+					<label>Lastname</label>
+					<input type="text" name="lname"><br>
+
+					<label>URL</label>
+					<input type="text" name="url"><br>
+
+					<label>Company</label>
+					<input type="text" name="company">
+
+					<hr>
+
+					<h5>Privacy</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+					<h6>Available to hire</h6>
+					<span>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						<label class="switch">
+						  <input type="checkbox" checked>
+						  <span class="slider round"></span>
+						</label>
+					</span>
+
+					<hr>
+					<h6>Make account private</h6>
+					<span>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						<label class="switch">
+						  <input type="checkbox" checked>
+						  <span class="slider round"></span>
+						</label>
+					</span>
+
+					<hr>
+					<h6>Allow commenting</h6>
+					<span>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						<label class="switch">
+						  <input type="checkbox" checked>
+						  <span class="slider round"></span>
+						</label>
+					</span>
+
+					<hr>
+					<h6>Allow mentions</h6>
+					<span>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						<label class="switch">
+						  <input type="checkbox" checked>
+						  <span class="slider round"></span>
+						</label>
+					</span>
+
+				</form>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>
